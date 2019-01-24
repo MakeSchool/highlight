@@ -38,7 +38,7 @@ module Simplabs
         IO.popen(command, mode = 'r+') do |pygments|
           pygments << @code
           pygments.close_write
-          result = pygments.read.chomp
+          result = pygments.read
         end
       end
 
