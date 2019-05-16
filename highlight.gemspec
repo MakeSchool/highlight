@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
   s.license                   = 'MIT'
   s.require_path              = 'lib'
   s.rubygems_version          = %q{1.3.0}
-  s.has_rdoc                  = false
   s.summary                   = %q{Syntax Higlighting plugin for Ruby on Rails }
   s.description               = %q{Highlight highlights code in more than 20 languages. It uses the Pygments syntax highlighter and adds a simple Ruby API over it. It also provides helpers for use in your Ruby on Rails views.}
 
